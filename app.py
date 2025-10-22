@@ -41,7 +41,9 @@ def remove_files(n):
 remove_files(7)
   
 
+image = Image.open('textr.jpg')
 
+st.image(image, caption='Imagen')
 
 st.title("Reconocimiento Óptico de Caracteres")
 
