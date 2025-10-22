@@ -44,7 +44,7 @@ remove_files(7)
 
 image = Image.open('textr.jpg')
 
-st.image(image, caption='Image')
+st.image(image, caption='Image - Texto')
 st.title("Reconocimiento Óptico de Caracteres")
 
 st.subheader("Elige la fuente de la imágen, esta puede venir de la cámara o cargando un archivo")
