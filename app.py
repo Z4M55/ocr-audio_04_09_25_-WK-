@@ -47,7 +47,7 @@ image = Image.open('textr.jpg')
 st.image(image, caption='Image - Texto')
 st.title("Reconocimiento Óptico de Caracteres")
 
-st.subheader("Elige la una imágen, esta puede venir de la cámara o cargando un archivo")
+st.subheader("Elige la una imágen, esta puede venir de la cámara o cargando un archivo y edita la columna izquierda (a tu preferencia)")
 
 cam_ = st.checkbox("Usar Cámara 📸")
 
